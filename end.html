@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0" />
+        <title>Endgame</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://kit.fontawesome.com/a3fe18bc22.js" crossorigin="anonymous"></script>
+    </head>
+
+    
+    <figure id="spacefigure"> </figure>
+    
+    <body>
+        
+
+        <h2 id="hometitle"> <i class="fa-solid fa-meteor"></i> Thanks for playing <i class="fa-solid fa-hand-spock"></i>  </h2>
+        
+        <main>
+            <div class="container">
+                <div id="home" class="flex-column flex-center"> 
+                    <h1 id="finalScore"> </h1>
+                    <form> 
+                        <input 
+                        type="text" 
+                        name="username" 
+                        id="username" 
+                        placeholder="username"
+                        />
+                      <button 
+                         type="submit" 
+                         class="btn" 
+                         id="saveScoreBtn" 
+                         onclick="saveHighScore(event)"
+                         disabled
+                         > 
+                         
+                         Save
+                      </button>
+                    </form>
+                    <a class="btn" href="game.html"> Play Again</a>  
+
+
+                  
+                   </h2>
+                 <a href="highscore.html" id="highscore-btn" class="btn"> HighScores <i class="fa-solid fa-globe"></i></a>
+                  
+                </div>
+            </div>
+        
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        
+        <script src="end.js"></script>
+   
+    </body>
+</html>
