@@ -19,7 +19,7 @@ code ..
 
 ```
 
-or you can just use the deployment link:[Link text here]
+or you can just use the deployment link:[https://jamestpatmore.github.io/CodeQuiz/]
 
 ## Functionality 
 
