@@ -6,7 +6,7 @@ Welcome :comet: to my space themed CodeQuiz :telescope:
 
 Here is what the program looks like when you open the webpage :electron:
 
-![alt text](images/homepagess.png)
+![alt text](images/hompagess.png)
 
 ## How to Use
 
